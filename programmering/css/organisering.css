@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: prompt;
+    color: #364944;
+}
+
+
+
+
+
+
+/*HEADER*/
+
+#brandlogo {
+    margin-top: -90px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.menupunkter {
+    margin: 15px;
+    padding-top: 8px;
+    padding-left: 80px;
+}
+
+#main-header ul, #main-header li, #main-header a{
+    list-style: none;
+    text-decoration: none;
+    color: #364944;
+    text-align: center;
+    position: relative;
+    margin-top: -34px;
+    font-size: 15px;
+}
+
+
+#main-header a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    background-color: #f8f4e3;
+    padding-bottom: 20px;
+}
+
+
+#bedre-plan {
+    background-color: #dccec1;
+    padding-bottom: 150px;
+}
+
+#bedre-plan > h3 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#bedre-plan > p {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+
+.green-boks {
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+#boks-tekst > td {
+    position: absolute;
+    color: #f8f4e3;
+    font-size: 18px;
+}
+
+#kalender {
+    padding-left: 110px;
+    padding-top: 50px;
+}
+
+#todo {
+    padding-left:620px ;
+    padding-top: 50px;
+}
+
+#pause {
+    padding-left: 1025px;
+    padding-top: 50px;
+}
+
+
+#tekst-planlægning > td {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#kalender-boks {
+    margin-left: 100px;
+}
+
+#eksempel {
+    background-color: #f8f4e3;
+    padding-bottom: 50px;
+}
+
+#eksempel > img {
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#todoliste {
+    width: 400px;
+    border: solid 20px #364944;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+#kalenderide {
+    width: 550px;
+    border: solid 20px #364944;
+}
+
+
+
+#nanna > img {
+    width: 600px;
+}
+
+
+#sam-sektion {
+    background-color: #89a38d;
+    padding-bottom: 350px;
+}
+
+#sam-sektion > img {
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 100px;
+    position: absolute;
+}
+
+#sam-sektion > p {
+    position: absolute;
+    padding-left: 550px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+#sita {
+    font-size: 80px;
+    position: absolute;
+}
+
+#first-sita {
+    padding-left: 500px;
+    padding-top: 40px;
+}
+
+#second-sita {
+    padding-left: 1180px;
+    padding-top: 40px;
+}
+
+
+footer {
+    background-color: #364944;
+    padding-bottom: 80px;
+}
+
+.footer-table > td {
+    color: #f8f4e3;
+    padding-left: 150px;
+}
+
+.footer-table > td > a {
+    color: #f8f4e3;
+    text-decoration: none;
+}
+
+.kontakt-tekst {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.footer-table > .punktum {
+    color: #364944;
+}
+
+.footer-table > td:hover {
+    text-decoration: underline;
+}
+
+#kontakt > td {
+    font-size: 20px;
+    color: #f8f4e3;
+    padding-left: 150px;
+}
